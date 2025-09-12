@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
-export default function Filters({ rovers, cameras, rover, setRover, camera, setCamera, date, setDate, onSearch }) {
+export default function Filters({ rovers, cameras, rover, setRover, camera, 
+  setCamera, date, setDate, onSearch }) {
   const [searchText, setSearchText] = useState('');
 
   const handleSearchClick = () => {
     onSearch({ searchText });
   }
 
-  // Largura aumentada e altura uniforme
   const inputClass = "border border-gray-400 p-2 rounded bg-white text-black w-64 h-10";
 
   return (
