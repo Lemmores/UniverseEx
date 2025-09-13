@@ -32,7 +32,7 @@ UniverseEx é um projeto feito com **Next.js** que permite explorar fotos dos ro
 ## 🚀 Deploy no Vercel
 
 O projeto está publicado no **Vercel**, versão estável compatível com Next.js 13+.  
-URL do deploy: `https://seu-projeto.vercel.app` *(substitua pelo seu link)*
+URL do deploy: `https://universe-ex-eight.vercel.app/` *(substitua pelo seu link)*
 
 > ⚠️ Observação: às vezes as imagens podem demorar alguns segundos para carregar, dependendo da quantidade de fotos retornadas pela API da NASA.
 
